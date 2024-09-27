@@ -1,0 +1,1 @@
+../../stanford-lagunita-cs1-compilers-grading-scripts-master/pa1-grading.pl

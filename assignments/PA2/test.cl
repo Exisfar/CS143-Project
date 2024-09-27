@@ -11,10 +11,10 @@ class CellularAutomaton inherits IO {
             self;
         }
     };
-   
+    
     print() : SELF_TYPE {
         {
-            out_string(population_map.concat("\n"));
+            out_string(population_map.concat("123\n"));
             self;
         }
     };
@@ -82,15 +82,15 @@ class Main {
         {
             cells <- (new CellularAutomaton).init("         X         ");
             cells.print();
-            (let countdown : Int <- 20 in
+            let countdown : Int <- 20 in
                 while countdown > 0 loop
-                    {
-                        cells.evolve();
-                        cells.print();
-                        countdown <- countdown - 1;
-                    
+                {
+                    cells.evolve();
+                    cells.print();
+                    countdown <- countdown - 1;
+                }   
                 pool
-            );  (* end let countdown
+            -- end let countdown
             self;
         }
     };

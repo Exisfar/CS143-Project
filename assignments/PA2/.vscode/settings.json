@@ -1,0 +1,16 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/exisfar/Projects/Lecture-Project/CS143-Project/assignments/PA2",
+            "binaryPath": "/home/exisfar/Projects/Lecture-Project/CS143-Project/assignments/PA2/lexer",
+            "binaryArgs": []
+        },
+        {
+            "cwd": "/home/exisfar/Projects/Lecture-Project/CS143-Project/assignments/PA2",
+            "binaryPath": "/home/exisfar/Projects/Lecture-Project/CS143-Project/assignments/PA2/lexer",
+            "binaryArgs": [
+                "test.cl"
+            ]
+        }
+    ]
+}
